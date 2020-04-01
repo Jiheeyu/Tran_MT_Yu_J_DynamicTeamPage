@@ -130,6 +130,8 @@ h4 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  -moz-animation: slideIn 2s ease-in-out 1,  fadeIn 1.5s ease-in-out 1;
+  -webkit-animation: slideIn 2s ease-in-out 1,  fadeIn 1.5s ease-in-out 1;
   animation: slideIn 2s ease-in-out 1,  fadeIn 1.5s ease-in-out 1;
 }
 
