@@ -35,7 +35,6 @@
     "DESIGNER"]
   ];
 
-
   function memberSelected() {
     if (this.dataset.member == "0") {
       memberSection.style.backgroundColor = "#10304B";

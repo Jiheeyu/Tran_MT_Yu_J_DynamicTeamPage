@@ -111,7 +111,7 @@ h4 {
 }
 
 @keyframes slideIn {
-  0%{ transform: translateX(380px)}
+  0%{ transform: translateX(200px)}
   100%{ transform: translateX(0px)}
 }
 
