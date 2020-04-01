@@ -110,16 +110,30 @@ h4 {
   margin-top: 115px;
 }
 
+@keyframes slideIn {
+  0%{ transform: translateX(380px)}
+  100%{ transform: translateX(0px)}
+}
+
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
 .toggleMenu {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  animation: slideIn 1.5s ease-in-out 1,  fadeIn 1.5s ease-in-out 1;
 }
 
 .toggleMenu.flip {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-direction: row-reverse;
 }
 

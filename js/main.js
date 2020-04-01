@@ -22,7 +22,7 @@
     the moment that I am able to make something work always feels so good
     to me. I hope I can drive myself better into this field, my goal is
     to become successful in both designing and coding. I would strike to be
-    a full-stack developer and keep enhancing my designing skills on the way!`, 
+    a full-stack developer and keep enhancing my designing skills on the way!`,
     "EVAN CHAN",
     "DEVELOPER"],
     ["JIHEE", `Hi, I'm Jihee Yu. I've been in Canada for a year and a half now.
