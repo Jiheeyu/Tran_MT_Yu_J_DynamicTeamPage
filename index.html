@@ -8,80 +8,49 @@
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
   <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet">
-  <title>Tran_MT_Yu_J_DynamicTeamPage</title>
+  <title>Evan & Jihee</title>
 </head>
 <body>
-<div id="container">
-  <header id=mainHeader>
-
-  </header>
-  <main>
-
-    <div id="mainContent">
-      <div class="box left">
-        <button><img src="images/EVAN.svg" alt="EvanLogo" width="130px"></button>
-      </div>
-      <div class="box right">
-        <button onclick="toggleImg()" id="jiheeButton"><img src="images/JIHEE.svg" alt="JiheeLogo" width="130px"></button>
-      </div>
-    </div><!--mainContent End-->
-
-    <div id="changeContent">
-      <div class="box one">
-        <h2>Evan Chan</h2>
-        <div class="line"></div>
-        <h3>DEVELOPER</h3>
-        <h4>AGE - 23</h4>
-        <h4>- INTERESTS</h4>
-        <h4>Dogs   Food   Activites
-            Traveling   Moives   Music</h4>
-        <p> Hi. I’m Jihee Yu. I’m from Korea. I’ve been<br>
-            in Canada for a year and a half. I’m taking<br>
-            Interactive Media Design in Fanshawe.<br>
-            I graduated Textile Design in Korean.<br>
-            I was interested to design by using software<br>
-            such as Photoshop, Illustrator, so I decieded<br>
-            to learn Interactive Media Design more<br>
-            When I study coding, everthing was new to me<br>
-            It’s lots of fun to code according to my design<br>
-            Learning Web Design and staying in Canada<br>
-            is challenging for me, but I love that<br>
-            I hope I can compeletly finish my plans
-      </div><!--box one End-->
-      <div class="box face">
-        <img src="images/EvanB.jpg" alt="Evan">
-      </div>
-      <div class="box face">
-        <img src="images/JiheeB.jpg" alt="Jihee">
-      </div>
-      <div class="box two">
-        <h2>Jihee Yu</h2>
-        <div class="line"></div>
-        <h3>DESIGNER</h3>
-        <h4>AGE - 24</h4>
-        <h4>INTERESTS -</h4>
-        <h4>Dogs   Food   Activites
-            Traveling   Moives   Music</h4>
-        <p> Hi. I’m Jihee Yu. I’m from Korea. I’ve been<br>
-            in Canada for a year and a half. I’m taking<br>
-            Interactive Media Design in Fanshawe.<br>
-            I graduated Textile Design in Korean.<br>
-            I was interested to design by using software<br>
-            such as Photoshop, Illustrator, so I decieded<br>
-            to learn Interactive Media Design more<br>
-            When I study coding, everthing was new to me<br>
-            It’s lots of fun to code according to my design<br>
-            Learning Web Design and staying in Canada<br>
-            is challenging for me, but I love that<br>
-            I hope I can compeletly finish my plans
-      </div><!--box two End-->
-    </div><!--changeContent End-->
-
-  </main>
-  <footer id="mainFooter">
-
-  </footer>
-</div>
+  <div class="container">
+    <main>
+      <header>
+          <div id="introText">
+            <p>To check out each member, click on their name.</p>
+            <h1>CHOOSE A MEMBER</h1>
+          </div>
+      </header>
+      <section id="mainSection">
+        <div class="buttonSection">
+          <div  data-member="0" data-photo="evan" class="evanButton"><img src="images/EVAN.svg" alt="EVAN"></div>
+          <div id="line"></div>
+          <div  data-member="1"  data-photo="jihee" class="jiheeButton"><img src="images/JIHEE.svg" alt="JIHEE"></div>
+        </div>
+        <div class="toggleMenu">
+            <img class="photoMember">
+        <div class="insideInfo">
+              <h2 class="infoName"></h2>
+              <h3 class="infoRole"></h3>
+              <h4 class="interestTitle"></h4>
+              <ul class="interestEvan hidden">
+                <img class="interestLogo" src="images/games.svg" alt="interestImg">
+                <img class="interestLogo" src="images/sushi.svg" alt="interestImg">
+                <img class="interestLogo" src="images/bed.svg" alt="interestImg">
+                <img class="interestLogo" src="images/book.svg" alt="interestImg">
+              </ul>
+              <ul class="interestJihee hidden">
+                <img class="interestLogo" src="images/dog.svg" alt="interestImg">
+                <img class="interestLogo" src="images/tent.svg" alt="interestImg">
+                <img class="interestLogo" src="images/pizza.svg" alt="interestImg">
+                <img class="interestLogo"src="images/music.svg" alt="interestImg">
+              </ul>
+              <h4 class="introTitle"></h4>
+              <p class="infoContent"></p>
+        </div>
+        </div>
+      </section>
+      <footer></footer>
+    </main>
+  </div>
 <script src="js/main.js"></script>
 </body>
 </html>
