@@ -1,4 +1,6 @@
-# Dynamic Team Page
+# Dynamic Team Page :page_facing_up:
+
+![Evan&Jihee](images/evanjihee.jpg "Evan&Jihee Banner")
 
 ## Create a page to show bio of members in FIP team
 
