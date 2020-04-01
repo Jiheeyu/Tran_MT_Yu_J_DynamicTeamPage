@@ -25,7 +25,7 @@
     a full-stack developer and keep enhancing my designing skills on the way!`,
     "EVAN CHAN",
     "DEVELOPER"],
-    ["JIHEE", `Hi, I'm Jihee Yu. I've been in Canada for a year and a half now.
+    ["JIHEE", `Hi, I'm Jihee Yu. I'm from Korea. I've been in Canada for a year and a half now.
     I'm taking Interactive Media Design at Fanshawe College. I graduated in Textile Design back in Korea. I'm interested in using
     design software, such as Photoshop or Illustrator, so I decided to learn more about it.
     When I started studying coding, everything was so new to me.
