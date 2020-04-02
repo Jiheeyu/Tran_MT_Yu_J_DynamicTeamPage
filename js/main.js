@@ -62,8 +62,13 @@
     introHeader.textContent = ("INTRODUCTION");
   }
 
-evanButton.forEach(button => button.addEventListener("click", memberSelected));
-jiheeButton.forEach(button => button.addEventListener("click", memberSelected));
+evanButton.forEach(button => {
+  button.addEventListener("click", memberSelected)
+});
+
+jiheeButton.forEach(button => {
+  button.addEventListener("click", memberSelected)
+});
 
 
 })();
